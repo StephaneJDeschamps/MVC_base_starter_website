@@ -1,5 +1,4 @@
-  <!-- ! utilities.php v1.0.1 | MIT License | github.com/StephaneJDeschamps/MVC_base_starter_website  -->
-
+<!-- ! utilities.php v1.0.2 | MIT License | https://github.com/StephaneJDeschamps/MVC_base_starter_website  -->
 <?php
 
 // Utilities functions
@@ -20,12 +19,12 @@ function secure_test($data)
     return $data;
 }
 
-function error($err='')
+function unknown_error($err='')
 {
     $mess=($err!='')? $err:'Une erreur inconnue s\'est produite';
     exit('<div id="error">
                 <p>'.$mess.'</p>
-                <p>Cliquez <a href="./UserController.class.php">ici</a> pour revenir au formulaire</p>
+                <p>Cliquez <a href="../index.php">ici</a> pour revenir à l\'accueil !</p>
                 </div>
           ');
 }
