@@ -1,5 +1,5 @@
-# base_starter_website
-My base_starter for make websites evolving over time...
+# MVC_base_starter_website
+My base starter template for make websites or web applications with mvc design pattern. Evolving over time...
 
 ## include:
  - <a href="https://fontawesome.com/">Font Awesome Free</a> (for icons).
